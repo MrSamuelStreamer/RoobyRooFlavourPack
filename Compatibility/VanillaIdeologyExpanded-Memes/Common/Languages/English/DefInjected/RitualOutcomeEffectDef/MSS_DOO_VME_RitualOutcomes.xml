@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <VME_OrgyRitualOutcome.description>Every participant will get a "got some lovin'" memory, but the negative effects of a bad quality great shag will be much more severe than usual. Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.\nNote that all participants must be consenting adults, if they weren't that'd be a real zoinks! If the moral guide is not an adult the ritual will appear as blocked.</VME_OrgyRitualOutcome.description>
+    <VME_OrgyRitualOutcome.comps.0.label>great shag organizer present</VME_OrgyRitualOutcome.comps.0.label>
+</LanguageData>
