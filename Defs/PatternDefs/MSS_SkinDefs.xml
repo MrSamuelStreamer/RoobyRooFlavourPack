@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<Defs>
-	<Vehicles.SkinDef>
-		<defName>MSS_Mystery</defName>
-		<label>Mystery Machine</label>
-		<path>Graphics/Skins/MSS_Mystery/MSS_Mystery</path>
-	</Vehicles.SkinDef>
-</Defs>
