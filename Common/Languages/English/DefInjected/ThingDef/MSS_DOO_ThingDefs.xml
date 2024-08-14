@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <NutrientPasteDispenser.label>pot noodle dispenser</NutrientPasteDispenser.label>
+    <NutrientPasteDispenser.description>A pot noodle dispenser, it's basically just adding hot water to dehydrated noodles to make a meal, efficient and great on a cold day.</NutrientPasteDispenser.description>
+    <Hopper.description>Holds resources for use by machines like pot noodle dispensers.</Hopper.description>
+    <MealNutrientPaste.label>pot noodle</MealNutrientPaste.label>
+    <MealNutrientPaste.description>A synthetic mixture of noodles and flavour powder with some green bits nobody can identify. A weirdly satisfying meal.</MealNutrientPaste.description>
+</LanguageData>

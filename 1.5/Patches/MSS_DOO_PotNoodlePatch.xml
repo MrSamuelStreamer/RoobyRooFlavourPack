@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/ingestible/ateEvent</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/ingestible/preferability</xpath>
+        <value><preferability>MealSimple</preferability></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/graphicData/texPath</xpath>
+        <value><texPath>Things/Item/Meal/PotNoodle</texPath></value>
+    </Operation>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/ingestible/tasteThought</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/ingestible/tasteThought</xpath>
+            <value><tasteThought>MSS_DOO_AtePotNoodle</tasteThought></value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="MealNutrientPaste"]/ingestible</xpath>
+            <value><tasteThought>MSS_DOO_AtePotNoodle</tasteThought></value>
+        </nomatch>
+    </Operation>
+</Patch>

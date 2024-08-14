@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <defName>MSS_DOO_AtePotNoodle</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>hurt me you slag</label>
+                <description>I got the pot noodle horn and ate one. Yum!</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>AteFineMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+</Defs>
