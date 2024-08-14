@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <Rooby_Roo_Flavour_Pack_SettingsCategory>Rooby Roo Flavour Pack</Rooby_Roo_Flavour_Pack_SettingsCategory>
+
+    <CannotRomance>Not Shagworthy {0}</CannotRomance>
+    <CanRomance>Shagworthy {0}</CanRomance>
+
+    <!-- Social tab (romance) -->
+    <TryRomanceButtonLabel>Shag</TryRomanceButtonLabel>
+    <TryRomanceNoOptsMessage>Nobody for {0_labelShort} to shag.</TryRomanceNoOptsMessage>
+    <CantRomanceTargetZeroChance>totally not shagworthy man</CantRomanceTargetZeroChance>
+    <CantRomanceInitiateMessageCooldown>{0_labelShort} tried shaggin recently and must wait {1} until trying again.</CantRomanceInitiateMessageCooldown>
+    <TryRomanceFailedMessage>{0_labelShort}'s attempt to shag {1_labelShort} was unsuccessful.</TryRomanceFailedMessage>
+    <RomanceExistingRelationshipWarning>Having {INITIATOR_nameDef} shag {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations.</RomanceExistingRelationshipWarning>
+    <RomanceChance>Shagworthiness</RomanceChance>
+    <RomanceChanceExistingRelation>already {PAWN_nameDef}'s {RELATION}</RomanceChanceExistingRelation>
+    <RomanceChanceCant>Not shagworthy</RomanceChanceCant>
+    <RomanceFailedUnexpected>{0_labelShort} was unable to shag {1_labelShort}</RomanceFailedUnexpected>
+
+</LanguageData>

@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<description>Various Scooby Doo support and crap.</description>
+	<description>Various Scooby Doo support.</description>
 	<loadAfter>
 		<li>oskarpotocki.vanillavehiclesexpanded</li>
 		<li>oracle.miscellania</li>
+        <li>vanillaexpanded.vmemese</li>
 	</loadAfter>
 </ModMetaData>
